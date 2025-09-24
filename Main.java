@@ -1,7 +1,7 @@
 public class Main {
   public static void main(String[] args) {
-    System.out.println("My name");
-System.out.println("Silviu");
-System.out.println("Luncanu");
+    String fname = "xon";
+    String 1name = "yuri";
+    System.out.println("Hello " + fname + " "+ 1name);
   }
 }
