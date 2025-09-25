@@ -1,0 +1,12 @@
+package second;
+
+public class FirstProgram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String FavouriteFood = "Rice and beans";
+		System.out.print("My favourite food is ");
+		System.out.println(FavouriteFood);
+	}
+
+}
