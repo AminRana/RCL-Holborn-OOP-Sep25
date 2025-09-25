@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package MyFirstProgram;
+
+/**
+ * 
+ */
+public class FristProgram {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String FavouriteFood = "Pizza";
+		System.out.print("My favourite food is ");
+		System.out.println(FavouriteFood);
+	}
+
+}
