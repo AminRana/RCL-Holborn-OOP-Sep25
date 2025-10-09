@@ -1,0 +1,71 @@
+/**
+ * 
+ */
+package switch_conditional;
+import java.util.Scanner;
+/**
+ * 
+ */
+public class Switch_conditional {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Week 3 – Consolidation task:
+Program: Determine the Season Based on Month Using Switch
+Objective:
+Write a Java program that determines the season (Winter, Spring, Summer, or Autumn)
+based on a given month number (1-12). The program should use a switch statement.
+
+		 */
+		
+		
+		Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter month number (1–12): ");
+        int month = input.nextInt();
+
+        String season; // variable to hold the result
+
+        switch (month) {
+            case 12:
+            case 1:
+            case 2:
+                season = "Winter";
+                break;
+            case 3:
+            case 4:
+            case 5:
+                season = "Spring";
+                break;
+            case 6:
+            case 7:
+            case 8:
+                season = "Summer";
+                break;
+            case 9:
+            case 10:
+            case 11:
+                season = "Autumn";
+                break;
+            default:
+                season = "Invalid month! Please enter a number between 1 and 12.";
+                break;
+        }
+
+        System.out.println(season);
+
+        input.close();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
