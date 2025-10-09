@@ -1,0 +1,62 @@
+/**
+ * 
+ */
+package if_else_condition;
+import java.util.Scanner;
+/**
+ * 
+ */
+public class IF_else_conditional {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Programming Task: Grade Calculator Using if-else if-else
+Task Description:
+Write a Java program that assigns a predefined student score and determines the
+corresponding grade using if-else if-else statements. The grading system should
+follow these rules:
+Score Range Grade
+90 - 100 A
+80 - 89 B
+70 - 79 C
+60 - 69 D
+Below 60 F
+
+		 */
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter your pass mark between 0 and 100: "); 
+    int score = input.nextInt(); // Read user input
+	
+	if (score >= 90 & score <=100) 
+	{
+		System.out.println("You have got Grade A");
+	}
+	
+	else if (score >= 80 & score <= 89) 
+	{
+		System.out.println("You have got Grade B");
+	}
+	else if (score >= 70 & score <= 79) 
+	{
+		System.out.println("You have got Grade C");
+	}
+	else if (score >= 60 & score <= 69) 
+	{
+		System.out.println("You have got Grade D");
+	}
+	else if(score >= 0 & score<= 60) 
+	{
+		System.out.println("You have got Grade F");
+	}
+	else 
+	{
+		System.out.println("Please enter a valid Grade between 0 and 100");
+	}
+	}
+
+}
