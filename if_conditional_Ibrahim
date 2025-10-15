@@ -1,0 +1,30 @@
+ * 
+ */
+package If_conditional;
+
+/**
+ * 
+ */
+public class If_conditional {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age = 20;
+		String citizenship = "UK";
+		
+		if (age >= 18)
+		{
+			// if the first condition is true
+			if (citizenship.equals("UK"))
+			{
+				//if the second condition is true
+				System.out.println("Eligble for voting, Yahooo.");
+			}
+		}
+
+	}
+
+}
