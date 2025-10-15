@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package myPackage;
+import java.util.Scanner;
+/**
+ * 
+ */
+public class MultiplicationTable {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter a number that print its multiplication table: ");
+		int number = input.nextInt();
+		System.out.println("Multiplication table of : " + number + ":");
+		for (int i = 1; i <= 10; i++)
+		{
+			System.out.println(number + " x " + i + " = " + (number * i));
+		}
+	}
+
+}
