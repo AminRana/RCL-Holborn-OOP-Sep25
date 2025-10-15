@@ -1,0 +1,24 @@
+ * 
+ */
+package Numbers_print;
+
+/**
+ * 
+ */
+public class Numbers_print {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Print Numbers from 1 to 10.
+		for (int num =1; num < 11; num++) {
+			System.out.println(num);
+		}
+		
+
+	}
+
+}
