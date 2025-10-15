@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package Numbers_print;
+
+/**
+ * 
+ */
+public class Numbers_print {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Print Numbers from 1 to 10.
+		// for (int num =1; num < 11; num++) {
+			// System.out.println(num);
+		//}
+		
+		// Even or Odd numbers, java program printing form 1 to 50
+		
+		for (int num =1; num <=50; num++)
+		{
+			if(num % 2 == 0) 
+			{
+				System.out.println(num + " this is an even number.");
+			}
+			else 
+			{
+				System.out.println(num + " this is an odd number.");
+			}
+		}
+		
+	}
+
+}
