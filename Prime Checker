@@ -1,0 +1,39 @@
+package myPackage;
+
+public class PrimeChecker {
+
+		 // Method to check if a number is prime
+	    public static boolean isPrime(int n) {
+	        if (n <= 1) {
+	            return false;
+	        }
+	        if (n <= 3) {
+	            return true;
+	        }
+	        // Eliminate even numbers and multiples of 3
+	        if (n % 2 == 0 || n % 3 == 0) {
+	            return false;
+	        }
+
+	        // Check divisibility up to the square root of n
+	        for (int i = 5; i * i <= n; i += 6) {
+	            if (n % i == 0 || n % (i + 2) == 0) {
+	                return false;
+	            }
+	        }
+
+	        return true;
+	    }
+
+	    public static void main(String[] args)
+		{
+
+	        // Example usage
+			   System.out.println(isPrime(2));   // true
+		        System.out.println(isPrime(15));  // false
+		        System.out.println(isPrime(17));  // true
+		        System.out.println(isPrime(97));  // true
+		}
+	}
+
+
