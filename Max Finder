@@ -1,0 +1,25 @@
+package methods;
+
+public class MaxFinder {
+       // Method to find the maximum of two numbers
+	    public static int max(int a, int b) {
+	        return (a > b) ? a : b;
+	    }
+
+	    // Overloaded method to find the maximum of three numbers
+	    public static int max(int a, int b, int c) {
+	        return max(max(a, b), c);
+	    }
+
+	    // Overloaded method to find the maximum of four numbers
+	    public static int max(int a, int b, int c, int d) {
+	        return max(max(a, b, c), d);
+	    }
+	    // Example usage
+	    public static void main(String[] args) {
+	        System.out.println("Max of 10 and 20: " + max(10, 20));
+	        System.out.println("Max of 10, 20, 5: " + max(10, 20, 5));
+	        System.out.println("Max of 10, 20, 5, 30: " + max(10, 20, 5, 30));
+	    }
+	}
+
